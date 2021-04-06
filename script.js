@@ -41,6 +41,7 @@ while ( (numeriConsentiti.length < possibilita) && (! listabombe.includes(utente
   while(isNaN(utente) || utente < 1 || utente > nMax) {
     utente = parseInt(prompt('Valore non valido. Inserire un altro numero da 1 a' + nMax));
   }
+  console.log(utente);
 }
  
 
@@ -49,6 +50,6 @@ while ( (numeriConsentiti.length < possibilita) && (! listabombe.includes(utente
 
 //Funzioni
 
-function numeroRandom(max) {
-     return Math.floor(Math.random()*max) + 1;
+function numeroRandom(mass) {
+     return Math.floor(Math.random()* max ) + 1;
 }
